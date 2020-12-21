@@ -28,18 +28,23 @@ jxRequirements:
     gitName: github
     gitServer: https://github.com
     provider: minikube
+    registry: 10.96.209.254
   environments:
   - key: dev
+    owner: railgadi
+    repository: demo-jx
   - key: staging
   - key: production
   ingress:
-    domain: ""
+    domain: 192.168.39.190.nip.io
     externalDNS: false
     namespaceSubDomain: -tekton-pipelines.
     tls:
       email: ""
       enabled: false
       production: false
+  pipelineUser:
+    username: railgadi
   repository: bucketrepo
   secretStorage: vault
   vault: {}

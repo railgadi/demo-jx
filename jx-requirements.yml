@@ -17,6 +17,8 @@ spec:
     registry: 10.96.209.254
   environments:
   - key: dev
+    owner: railgadi
+    repository: demo-jx
   - key: staging
   - key: production
   ingress:
@@ -27,6 +29,8 @@ spec:
       email: ""
       enabled: false
       production: false
+  pipelineUser:
+    username: railgadi
   repository: bucketrepo
   secretStorage: vault
   vault: {}
