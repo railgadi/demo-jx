@@ -28,6 +28,7 @@ jxRequirements:
     gitName: github
     gitServer: https://github.com
     provider: minikube
+    registry: 10.96.209.254
   environments:
   - key: dev
     owner: railgadi
