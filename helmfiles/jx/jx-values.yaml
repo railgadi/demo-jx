@@ -30,16 +30,20 @@ jxRequirements:
     provider: minikube
   environments:
   - key: dev
+    owner: railgadi
+    repository: demo-jx
   - key: staging
   - key: production
   ingress:
-    domain: ""
+    domain: 192.168.39.190.nip.io
     externalDNS: false
     namespaceSubDomain: -jx.
     tls:
       email: ""
       enabled: false
       production: false
+  pipelineUser:
+    username: railgadi
   repository: bucketrepo
   secretStorage: vault
   vault: {}
