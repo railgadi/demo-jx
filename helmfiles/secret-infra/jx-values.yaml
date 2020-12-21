@@ -36,7 +36,7 @@ jxRequirements:
   - key: staging
   - key: production
   ingress:
-    domain: 192.168.39.190.nip.io
+    domain: todearjay.com
     externalDNS: false
     namespaceSubDomain: -secret-infra.
     tls:

@@ -41,7 +41,7 @@ data:
         - needs-rebase
         repos:
         - railgadi/demo-jx
-      target_url: http://dashboard-jx.192.168.39.190.nip.io
+      target_url: http://dashboard-jx.todearjay.com
 kind: ConfigMap
 metadata:
   creationTimestamp: null
