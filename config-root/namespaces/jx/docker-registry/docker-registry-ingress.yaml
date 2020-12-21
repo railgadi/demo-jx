@@ -13,7 +13,7 @@ metadata:
   namespace: jx
 spec:
   rules:
-    - host: docker-registry-jx.todearjay.com
+    - host: docker-registry-jx.172.18.0.51.nip.io
       http:
         paths:
           - path: /
