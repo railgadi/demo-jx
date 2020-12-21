@@ -1,27 +1,19 @@
-# jx-gitops
+# jx admin
 
-[![Documentation](https://godoc.org/github.com/jenkins-x/jx-gitops?status.svg)](https://pkg.go.dev/mod/github.com/jenkins-x/jx-gitops)
-[![Go Report Card](https://goreportcard.com/badge/github.com/jenkins-x/jx-gitops)](https://goreportcard.com/report/github.com/jenkins-x/jx-gitops)
-[![Releases](https://img.shields.io/github/release-pre/jenkins-x/jx-gitops.svg)](https://github.com/jenkins-x/jx-gitops/releases)
-[![LICENSE](https://img.shields.io/github/license/jenkins-x/jx-gitops.svg)](https://github.com/jenkins-x/jx-gitops/blob/master/LICENSE)
+[![Documentation](https://godoc.org/github.com/jenkins-x/jx-admin?status.svg)](https://pkg.go.dev/mod/github.com/jenkins-x/jx-admin)
+[![Go Report Card](https://goreportcard.com/badge/github.com/jenkins-x/jx-admin)](https://goreportcard.com/report/github.com/jenkins-x/jx-admin)
+[![Releases](https://img.shields.io/github/release-pre/jenkins-x-labs/helmboot.svg)](https://github.com/jenkins-x/jx-admin/releases)
+[![LICENSE](https://img.shields.io/github/license/jenkins-x-labs/helmboot.svg)](https://github.com/jenkins-x/jx-admin/blob/master/LICENSE)
 [![Slack Status](https://img.shields.io/badge/slack-join_chat-white.svg?logo=slack&style=social)](https://slack.k8s.io/)
 
-jx-gitops is a small command line tool working with Kubernetes resources and CRD files in a GitOps repository.
+`jx-admin` is a small command line tool for System Administrators install / upgrade kubernetes applications such as [Jenkins X](https://jenkins-x.io/) via GitOps and immutable infrastructure.
 
-## Getting Started
-
-Download the [jx-gitops binary](https://github.com/jenkins-x/jx-gitops/releases) for your operating system and add it to your `$PATH`.
-
-There will be an `app` you can install soon too...
+`jx-admin`  is based on [helm 3.x](https://helm.sh/) 
 
 ## Commands
 
-See the [jx-gitops command reference](docs/cmd/jx-gitops.md#see-also)
+See the [jx-admin command reference](https://github.com/jenkins-x/jx-admin/blob/master/docs/cmd/jx-admin.md)
 
+## Using jx admin
 
-## Documentation
-
-* [Git Repository Layout](docs/git_layout.md) on how to structure the source code of a GitOps repository
-* [Secret Mapping](docs/secret_mapping.md) for mapping Secrets to External Secrets and underlying storage
-    * [Secret Mapping Reference](docs/config.md) reference guide for configuring secret mappings
-* [Kind Filters](docs/kind_filters.md) for how to filter resources by `kind` with some of the [commands](docs/cmd/jx-gitops.md)   
+See the [Getting started guide](https://jenkins-x.io/docs/v3/getting-started/) for details
